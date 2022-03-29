@@ -1,0 +1,31 @@
+{
+    "1": {
+        "autor": "Aleš Knížek",
+        "datumACas": "2022-03-18",
+        "nadpis": "MVC",
+        "obsah": "MVC je neskutečná hovadina, nejlepší je se na to vysrat",
+        "id": 1
+    },
+    "2": {
+        "autor": "Aleš Knížek",
+        "datumACas": "2022-03-18",
+        "nadpis": "Proč nepoužívat MVC",
+        "obsah": "MVC je skvělý vzor. trvá to dlouho, člověk celé dny sedí nad tím, co by bez tohoto vzoru  napsal za 10 minut. je to velké, nepřehledné a strašné.",
+        "id": 2
+    },
+    "3": {
+        "autor": "denis penis",
+        "datumACas": "",
+        "nadpis": "minecratovy obrazek",
+        "obsah": "daddadadada",
+        "id": 3
+    },
+    "4": {
+        "autor": "Frydrych Loupáček",
+        "datumACas": "",
+        "nadpis": "Kteří učitelé pujdou tento rok na zasloužený odpočinek?",
+        "obsah": "Bohužel nikdo\r\n",
+        "id": 4
+    },
+    "next_id": 5
+}
