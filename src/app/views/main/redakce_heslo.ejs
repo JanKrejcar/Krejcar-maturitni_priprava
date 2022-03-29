@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/redakce/redakce_heslo.js"></script>
+    <link rel="stylesheet" href="/redakce/redakce_heslo.css">
+    <title>Redakce přístup</title>
+</head>
+<body>
+
+    <%- include("../stejne/hlavicka") %>
+        <form id="container" action="/main/overeniHesla" method="post">
+            
+            <input id="myInput" type="password" placeholder="zadejte heslo" name="myInput"><br>
+            <input id="myButton" type="submit" value="Přihlásit se">
+        
+        </form>
+        <%- include("../stejne/paticka") %>
+    <script>
+        var input = document.getElementById("myInput");
+            input.addEventListener("keyup", function(event) {
+            if (event.keyCode === 13) {
+                event.preventDefault();
+                document.getElementById("myButton").click();
+            }
+        });
+    </script>
+</body>
+</html>

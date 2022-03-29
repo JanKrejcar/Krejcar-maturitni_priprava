@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/detail.css">
+    <title>detail</title>
+</head>
+<body>
+    <%- include("../stejne/hlavicka.ejs") -%>
+
+    <div id="krejci">
+    <a href="/main/mainView">zpět na články</a>
+    
+
+    <div id="nadpis"><%=clanek.nadpis %> </div>
+    <div id="autor">Autor: <%=clanek.autor %> </div>
+    <div id="datum">Datum: <%=clanek.datumACas %> </div>
+    <div id="obsah"><%=clanek.obsah %> </div>
+
+</div>
+
+    <%- include("../stejne/paticka") -%> 
+</body>
+</html>
